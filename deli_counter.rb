@@ -3,6 +3,7 @@ def line(ary)
   if ary.size == 0
     "The line is currently empty."
   else
-    ary.each_index { |ind| result << "#{ind+1}. #{arr[ind]} " }
+    ary.each_index { |ind| result << "#{ind+1}. #{ary[ind]} " }
+    result
   end
 end
